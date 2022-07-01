@@ -1,10 +1,10 @@
-import { Categoria } from "./categoria.model";
+export class Seleccion {
 
-export class Producto {
+    
     idProducto?:number;
     nombre?:string;
     precio?:number;
     stock?:number;
-    categoria?:Categoria;
     cantidad?:number;
+    totalParcial?:number;
 }
